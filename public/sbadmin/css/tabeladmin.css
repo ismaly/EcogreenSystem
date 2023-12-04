@@ -1,0 +1,51 @@
+/* CSS untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* CSS untuk judul tabel */
+.table-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* CSS untuk latar belakang dan warna teks */
+.page {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* CSS untuk responsif */
+@media screen {
+    table {
+        width: 100%;
+    }
+}
+
+/* CSS untuk tampilan cetak */
+@media screen and (max-width: 600px) {
+    table.table th,
+    table.table td {
+        display: block;
+        width: 100%;
+    }
+}
